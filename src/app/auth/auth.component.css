@@ -1,0 +1,107 @@
+html,body{
+  background-image: url('https://i.pinimg.com/originals/f4/87/1a/f4871a0d8b874fe39d31b8835f07daf5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  }
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .container{
+  height: 100vh;
+  position: relative;
+  align-content: center;
+  }
+
+  .card{
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.911) !important;
+  }
+
+  .social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #8c00ff;
+  }
+
+  .social_icon span:hover{
+  color: white;
+  cursor: pointer;
+  }
+
+  .card-header h3{
+  color: white;
+  }
+
+  .social_icon{
+  position: absolute;
+  right: 20px;
+  top: -45px;
+  }
+
+  .input-group-prepend span{
+  width: 50px;
+  background-color: #8c00ff;
+  color: black;
+  border:0 !important;
+  }
+
+  input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+
+  }
+
+  .remember{
+  color: white;
+  }
+
+  .remember input
+  {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+
+  .login_btn{
+  color: black;
+  background-color: #8c00ff;
+  width: 100px;
+  }
+
+  .login_btn:hover{
+  color: black;
+  background-color: white;
+  }
+
+  .links{
+  color: white;
+  }
+
+  .links a{
+  margin-left: 4px;
+  }
+
+  #messageError{
+    color: red;
+  }
+
+  button:disabled {
+    background-color: grey;
+ }
+
+ input.ng-invalid.ng-touched
+{
+  border: 2px solid red;
+}
